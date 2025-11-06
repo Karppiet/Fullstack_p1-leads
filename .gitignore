@@ -1,0 +1,4 @@
+# Directories and files to exclude from version control
+node_modules/
+.DS_Store
+.env

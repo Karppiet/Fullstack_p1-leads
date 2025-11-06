@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Micro CRM Leads</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to the stylesheet -->
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Micro CRM Leads</h1>
+      <!-- Form for creating a new lead. 'id' is for JS, 'class' is for CSS. -->
+
+      <form id="newLead" class="card">
+        <h2>Add lead</h2>
+        <!-- The 'name' attribute is essential for FormData. It must match the server's expected keys. -->
+        <label>Name<input name="name" required /></label>
+        <label>Email<input name="email" type="email" required /></label>
+        <!-- 'required' provides browser-level validation -->
+        <label>Company<input name="company" /></label>
+        <label>Source<input name="source" /></label>
+        <label>Notes<textarea name="notes"></textarea></label>
+        <button>Create</button
+        ><!-- Default type is "submit" which triggers the form's 'submit' event -->
+      </form>
+
+      <!-- Section for displaying and filtering leads -->
+      <section class="card">
+        <h2>Leads</h2>
+        <div class="filters">
+          <!-- These 'id' attributes are for JavaScript to find these inputs -->
+          <input id="q" placeholder="search name or company" />
+          <select id="status">
+            <option value="">All</option>
+            <option>New</option>
+            <option>Contacted</option>
+            <option>Qualified</option>
+            <option>Lost</option>
+          </select>
+
+          <!-- 'type="button"' is important so this button *doesn't* submit the form -->
+          <button id="applyFilters" type="button">Apply</button>
+        </div>
+        <table id="grid">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Company</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+          <!-- This will be populated by app.js -->
+        </table>
+      </section>
+    </main>
+    <!-- Our JavaScript file is linked at the end of the body. -->
+    <!-- This ensures all HTML elements are loaded before the script runs. -->
+     <script src="app.js"></script>
+  </body>
+</html>
