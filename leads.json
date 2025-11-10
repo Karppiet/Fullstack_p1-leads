@@ -8,65 +8,6 @@
     "notes": "NOthing\n",
     "status": "Lost",
     "createdAt": "2025-11-06T13:30:21.882Z"
-  },
-  {
-    "id": "1762436058564",
-    "name": "Pekka",
-    "email": "Kakko@pekka.mail.fi",
-    "company": "PekanRakennus Oy",
-    "source": "Joo",
-    "notes": "Noting",
-    "status": "Lost",
-    "createdAt": "2025-11-06T13:34:18.564Z"
-  },
-  {
-    "id": "1762436110759",
-    "name": "Peka Kuka",
-    "email": "Pekakuka@mail.fi",
-    "company": "PekanRakennus",
-    "source": "Jou",
-    "notes": "NOthinh",
-    "status": "Contacted",
-    "createdAt": "2025-11-06T13:35:10.759Z"
-  },
-  {
-    "id": "1762436450866",
-    "name": "kak",
-    "email": "asd@mail.fi",
-    "company": "Jou",
-    "source": "TÄMÄ ",
-    "notes": "joo ",
-    "status": "Contacted",
-    "createdAt": "2025-11-06T13:40:50.866Z"
-  },
-  {
-    "id": "1762436551452",
-    "name": "Pekan",
-    "email": "pekan@mail.fi",
-    "company": "pekan kaivuri",
-    "source": "jou",
-    "notes": "Nothing ",
-    "status": "Contacted",
-    "createdAt": "2025-11-06T13:42:31.452Z"
-  },
-  {
-    "id": "1762436934799",
-    "name": "Pekan",
-    "email": "pekan@mail.fi",
-    "company": "Pekankaivuri",
-    "source": "Pekka",
-    "notes": "Nothing special",
-    "status": "Qualified",
-    "createdAt": "2025-11-06T13:48:54.799Z"
-  },
-  {
-    "id": "1762437055179",
-    "name": "ePek",
-    "email": "Pekka@mail.fi",
-    "company": "PekanKaivuri",
-    "source": "Pekka",
-    "notes": "Nothing",
-    "status": "Lost",
-    "createdAt": "2025-11-06T13:50:55.179Z"
   }
+ 
 ]
