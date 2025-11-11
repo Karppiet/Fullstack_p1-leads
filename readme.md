@@ -49,10 +49,10 @@ Video timestamps:
 
 00:00 Introduction and problem
 
-00:45 Features and architecture
+00:20 Features and architecture
 
-02:00 Live demo: add and edit item
+00:45 Live demo: add and edit item
 
-03:30 Code highlight: validation function
+02:30 Code highlight: load function
 
-04:30 Reflection and next steps
+03:53 Reflection and next steps
