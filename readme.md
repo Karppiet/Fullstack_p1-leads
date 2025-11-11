@@ -10,7 +10,9 @@ You must have Node.js (version 18 or later) installed.
 
 ### Setup Instructions
 npm install // Installs all project dependencies defined in the package.json file.
+
 npm start // Executes the "start" script defined in package.json (e.g., node server.js).
+
 Open http://localhost:3000/ // Instructs the user where to access the application in their browser.
 
 ## API Endpoints
