@@ -15,7 +15,9 @@ Open http://localhost:3000/ // Instructs the user where to access the applicatio
 
 ## API Endpoints
 GET /api/leads # Retrieves a list of all leads. Optional query parameters: ?q= (search), &status= (filter by status)
+
 POST /api/leads # Creates a new lead. Requires: name, email. Optional: company, source, notes.
+
 PATCH /api/leads/:id # Updates an existing lead by ID. Fields to update: status, notes.
 
 ## Technology Stack
