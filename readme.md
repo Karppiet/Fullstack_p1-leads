@@ -41,7 +41,11 @@ The improvements for the app could be the ability to delete leads on the UI. Als
 Video timestamps:
 
 00:00 Introduction and problem
+
 00:45 Features and architecture
+
 02:00 Live demo: add and edit item
+
 03:30 Code highlight: validation function
+
 04:30 Reflection and next steps
