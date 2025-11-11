@@ -40,6 +40,9 @@ I learned in this project a lot about full stack basics such as how to set up a 
 
 The improvements for the app could be the ability to delete leads on the UI. Also the appearance of the app could be a little more polished. 
 
+<img width="747" height="518" alt="image" src="https://github.com/user-attachments/assets/d434b049-0ca5-435e-b79a-64d1408780f4" />
+
+
 Video timestamps:
 
 00:00 Introduction and problem
